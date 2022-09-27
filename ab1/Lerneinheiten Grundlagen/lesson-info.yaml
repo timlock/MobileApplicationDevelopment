@@ -1,0 +1,9 @@
+content:
+- 01_Funktionen
+- 02_Parameter
+- 03_Kontrollstrukturen und Bereiche
+- 04_Variablen und Konstanten (nullable, non-nullable)
+- 05_Klassen
+- 06_Lambdas
+- 07_Listen_Sets
+- 08_Komplexe_Klassen

@@ -1,0 +1,46 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 462
+    length: 12
+    placeholder_text: TODO()
+    initial_state:
+      length: 6
+      offset: 461
+    initialized_from_dependency: false
+    selected: false
+    status: Failed
+    encrypted_possible_answer: dzXc749PV3oUQm85mRU6AQ==
+  - offset: 567
+    length: 53
+    placeholder_text: TODO()
+    initial_state:
+      length: 6
+      offset: 589
+    initialized_from_dependency: false
+    selected: true
+    status: Failed
+    encrypted_possible_answer: GLwgCyjFoYIq/m38+c1Ho2OjE1M44GfGDd3QGlUACOk=
+  - offset: 650
+    length: 15
+    placeholder_text: TODO()
+    initial_state:
+      length: 6
+      offset: 633
+    initialized_from_dependency: false
+    selected: true
+    status: Failed
+    encrypted_possible_answer: 9BQMX5QbVJuhxL+slKw/cJon0Ol2S0dvsC9l23OkO7Y=
+  encrypted_text: M1E9h39Uen/pqhnuRwpub7lsn2jxfVzuzhkmwZcYwUv/7lUc8DLgFk1xEDTPciw7qia5BXZokQPAXxLLLciymvL4cb7npQ9rnMOMfVs/wfrAbD2RcpagaHLIMMLTWLeuGUDIP5dd9bSaFDusGLCXaKKLOja+2NmsfY9Z9jxmua1Ao0hbwjVNUeV0fVZGFWsk5dHPaJetpLrj7j2OQCBHaa4Qj1Hr+7XDVTYXNOvzMi8EwkiIktpxk8whgK0GAgOw+PpbPp/xIBPldqLj0pHhBkBTC2HTXWdmciSkOFqCUchwhsJXajHYmp89bIMy82fa3VDTisId6tevsAP//wbIGZlnH6vNxZ5iYjk6OQS21T5k14V4pf1+fTMlW8gOqcyXYH3umU+b03siGqqplgyXaPsyM2gtLmN1EOIB4RfdrksPW3unTLg4OII8MvqctYiqZbloyrmvoyWUMGPDYg9Txc1w8yykXujpWYgvnGCgAiU7DoGMqYP3GP47JLyssknNzUsuDsy5WtpNoYUm5ONEy/SS0eDByxWpRuYdK75EirDAe5Y9/7rJPTiWIscziQ2sG4TsE18oL6UmU2jN0YGBpXOhN8YStGIxxJ1cBlKUIdUacO38DuJEKaTkgsLFrlTKW58axNDVLfqtCkfcqZtMVZT02kgPa3WGjUnFGn+4J5jIsrPoMobvhXr6Gb0XC53yLHi98/INufSfCIBb6jqnq8ENi1dBcMfeNFOCTfbJFAmkfACQo0HMWbhtl4GSLEhlUgzDPzZoKELIrg/1U+1V6+2kiEVtqMEibITL6B/3cgFoP9stMbFIABGzHAOzY1ZDi+yDS2Bb6srCpPvKj5E1e2JWgUc0rhjt8Z+uGowCXhDR3XADXrL8S1Y/Xy1y8vyuisiMtvc1ynzwsEcOnRtCNIzPfECdm9GcKW2qZTMZSBwsIFMVvKSgQv8GVytDktQlqjt5g2tcd7La5SURw2MBDER1ocw3Tx29BwDJxhTELywkfPoyI8YRdYWfan5/NvA9QBR4hjpAo3S77CqRatXUpEyLL7hSOf4tGyub9kLQbWJ27yoO0A9uhVEWTRP6yGHVYXTKLXLES2ayC4QhGyNaatrujJ2ZvFqkfWqKsi27IyEL3PVz5mM46ipmrydHtsQO3Jb8aBfaeZSW/2bRmb5IH1sU5j60laPqZmeBlXBOsE5bc1wX9MRJDB/kDuWI2tB9K12n3/zgb1cr3/yQ4gtQ8PNA9diBfeTzcLDd9HehRl07v1hZGqfAn1kACrOdjTFexFSKozek+LgD/7O5Fu7I/w==
+  learner_created: false
+- name: test/Tests.kt
+  visible: false
+  encrypted_text: ITs8Nv8EH6QWJG5nufD7nCbrLPoZNTYAX8EbQHppKy+TR7uFhZF7JnSL5/nnFJttOoUbKzjzjKMy0T1IKOzzSKcmYN6vttO2VYkO4mltId6WciCGOni1wblBCwRfrDQuV1Bf+LWMt0kym1ftrOCbDaJm+tJZV3EjmNc2XhlDItZuFyyz5qHzF/XwCaZE+fpies1O8467WrpX77quEClZo3tGRYB+xB3T/VPxHUQMNRxKEQDt2qEkkcAfEDpLNNebqntsnc/04zaZVVZA8UjRj6vlytAooEXRDogPf/uUlpM=
+  learner_created: false
+status: Failed
+feedback:
+  message: Tests not implemented for the task
+  time: Tue, 27 Sep 2022 12:16:26 UTC
+record: -1
