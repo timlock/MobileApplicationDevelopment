@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DriverHelp</string>
+    <string name="start">Start:</string>
+    <string name="stop">Stop:</string>
+    <string name="tanken">Tanken[l]:</string>
+    <string name="preis">Preis[€]:</string>
+    <string name="relativPreis">Preis pro 100km</string>
+    <string name="buttonLabel">Berechnen</string>
+</resources>
