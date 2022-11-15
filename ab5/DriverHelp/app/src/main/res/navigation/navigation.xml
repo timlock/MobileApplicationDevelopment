@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/driverHelp">
+
+    <fragment
+        android:id="@+id/driverHelp"
+        android:name="de.hsos.driverhelp.DriverHelp"
+        android:label="fragment_driver_help"
+        tools:layout="@layout/fragment_driver_help" >
+        <action
+            android:id="@+id/action_driverHelp_to_driverHelpInformation"
+            app:destination="@id/driverHelpInformation" />
+        <action
+            android:id="@+id/action_driverHelp_to_mileageListFragment"
+            app:destination="@id/mileageListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/driverHelpInformation"
+        android:name="de.hsos.driverhelp.DriverHelpInformation"
+        android:label="fragment_driver_help_information"
+        tools:layout="@layout/fragment_driver_help_information" >
+        <action
+            android:id="@+id/action_driverHelpInformation_to_driverHelp"
+            app:destination="@id/driverHelp"
+            app:popUpTo="@id/driverHelp" />
+    </fragment>
+    <fragment
+        android:id="@+id/mileageListFragment"
+        android:name="de.hsos.driverhelp.MileageListFragment"
+        android:label="fragment_mileage_list_list"
+        tools:layout="@layout/fragment_mileage_list_list" />
+</navigation>

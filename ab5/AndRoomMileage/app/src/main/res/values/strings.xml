@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndRoomMileage</string>
+    <string name="empty_not_saved">Mileage not saved because it is empty.</string>
+</resources>
