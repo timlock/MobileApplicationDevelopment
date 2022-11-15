@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Toast
+import de.hsos.driverhelp.data.Mileage
 
 import kotlinx.android.synthetic.main.activity_edit_data.*
 

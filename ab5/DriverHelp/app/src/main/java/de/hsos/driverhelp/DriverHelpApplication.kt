@@ -13,4 +13,6 @@ class DriverHelpApplication : Application() {
     // wenn sie benötigt werden. Nicht gleich beim Start der App.
     val database by lazy { MileageRoomDatabase.getDatabase(this, applicationScope) }
     val repository by lazy { MileageRepository(database.mileageDao()) }
+
+
 }

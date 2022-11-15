@@ -10,6 +10,8 @@ import de.hsos.driverhelp.data.MileageRepository
 import kotlinx.coroutines.launch
 
 class MileageViewModel(private val repository: MileageRepository) : ViewModel() {
+    private val totalMileage:Long =  0L;
+
 
     // Wir nutzen LiveData mit Caching, die Daten sind in allMileages gespeichert. Vorteile:
     // - Observer können hinzugefügt werden (z.B. UI), die auf Änderungen des Datenmodells reagieren.

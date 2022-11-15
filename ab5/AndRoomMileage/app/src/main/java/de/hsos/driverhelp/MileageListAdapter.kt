@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import de.hsos.driverhelp.data.Mileage
 
 import kotlinx.android.synthetic.main.layout_data_list_item.view.*
 

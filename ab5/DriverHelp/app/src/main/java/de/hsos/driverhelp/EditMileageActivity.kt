@@ -18,7 +18,6 @@ class EditMileageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_edit_data)
-
         mileage = intent.getParcelableExtra(EditMileageActivity.EXTRA_MILEAGE)
         mileage?.let {
             ed_distance.setText(it.distance.toString())

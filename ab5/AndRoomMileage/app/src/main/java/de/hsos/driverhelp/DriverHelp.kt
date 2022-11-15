@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.*
 import android.widget.*
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
@@ -26,8 +27,8 @@ class DriverHelp : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
-    private val viewModel: MileageViewModel by viewModels {
-        MileageViewModelFactory((activity?.application as DriverHelpApplication).repository)
+    private val mileageViewModel: MileageViewModel by activityViewModels {
+        MileageViewModelFactory((activity?.application as MileageApplication).repository)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -86,7 +87,6 @@ class DriverHelp : Fragment() {
             navContr.navigate(R.id.action_driverHelp_to_driverHelpInformation)
         }
         setHasOptionsMenu(true)
-        viewModel.allMileages
         return view
     }
 
@@ -95,7 +95,7 @@ class DriverHelp : Fragment() {
         var totalDistance : Int = 0;
         val info: String = "$currentTime | $totalDistance.to | $bill"
         val mileage: Mileage = Mileage(null, distance, fuel, info)
-        this.viewModel.insert(mileage)
+        this.mileageViewModel.insert(mileage)
     }
 
     override fun onCreateOptionsMenu(

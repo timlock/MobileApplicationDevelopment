@@ -1,4 +1,4 @@
-package de.hsos.driverhelp
+package de.hsos.driverhelp.data
 
 import android.content.Context
 import androidx.room.Database

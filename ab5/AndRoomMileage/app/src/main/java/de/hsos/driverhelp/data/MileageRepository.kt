@@ -1,4 +1,4 @@
-package de.hsos.driverhelp
+package de.hsos.driverhelp.data
 
 import androidx.annotation.WorkerThread
 import kotlinx.coroutines.flow.Flow

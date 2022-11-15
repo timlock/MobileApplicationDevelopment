@@ -5,6 +5,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
+import de.hsos.driverhelp.data.Mileage
+import de.hsos.driverhelp.data.MileageRepository
 import kotlinx.coroutines.launch
 
 class MileageViewModel(private val repository: MileageRepository) : ViewModel() {

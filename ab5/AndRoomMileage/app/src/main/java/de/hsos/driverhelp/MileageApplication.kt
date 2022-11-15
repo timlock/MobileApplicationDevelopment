@@ -1,6 +1,8 @@
 package de.hsos.driverhelp
 
 import android.app.Application
+import de.hsos.driverhelp.data.MileageRepository
+import de.hsos.driverhelp.data.MileageRoomDatabase
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 

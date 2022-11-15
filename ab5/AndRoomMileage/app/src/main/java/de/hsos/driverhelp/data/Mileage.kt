@@ -1,4 +1,4 @@
-package de.hsos.driverhelp
+package de.hsos.driverhelp.data
 
 /**
  * Entität als Spalten einer Datenbanktabelle.
