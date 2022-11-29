@@ -17,8 +17,6 @@
 		D88085ED293534CB0023B7C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88085C3293534C70023B7C9 /* ContentView.swift */; };
 		D88085EE293534CB0023B7C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88085C4293534CB0023B7C9 /* Assets.xcassets */; };
 		D88085EF293534CB0023B7C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88085C4293534CB0023B7C9 /* Assets.xcassets */; };
-		D88085FF293535B60023B7C9 /* Dice in Resources */ = {isa = PBXBuildFile; fileRef = D88085FE293535B60023B7C9 /* Dice */; };
-		D8808600293535B60023B7C9 /* Dice in Resources */ = {isa = PBXBuildFile; fileRef = D88085FE293535B60023B7C9 /* Dice */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +49,6 @@
 		D88085E2293534CB0023B7C9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88085E6293534CB0023B7C9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D88085E8293534CB0023B7C9 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		D88085FE293535B60023B7C9 /* Dice */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Dice; path = "../../../Downloads/Dice-starter-assets/Dice"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +99,6 @@
 			children = (
 				D88085C2293534C70023B7C9 /* Hello_WorldApp.swift */,
 				D88085C3293534C70023B7C9 /* ContentView.swift */,
-				D88085FE293535B60023B7C9 /* Dice */,
 				D88085C4293534CB0023B7C9 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -271,7 +267,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D88085EE293534CB0023B7C9 /* Assets.xcassets in Resources */,
-				D88085FF293535B60023B7C9 /* Dice in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +275,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D88085EF293534CB0023B7C9 /* Assets.xcassets in Resources */,
-				D8808600293535B60023B7C9 /* Dice in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
